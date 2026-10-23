@@ -1,0 +1,179 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(HTML.picture.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) url(HTML.picture.webp));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+header{
+    text-align: center;
+
+}
+
+
+.heading{
+    font-size: 2em;
+    color: whitesmoke;
+    user-select: none;
+}
+
+.thirdHeading{
+    font-size: 1.5;
+    color: whitesmoke;
+    user-select: none;
+}
+
+#calculate{
+    font-size: 2em;
+    color: whitesmoke;
+    user-select: none;
+}
+
+.line{
+    width: 1000px;
+    height: 5px;
+    background-color: white;
+    border: 0 none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.labelName{
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.labelSurname{
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.FirstNumber{
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.SecondNumber{
+    font-size: 1.5em;
+    color: whitesmoke;
+    font: 100px;
+}
+
+.ANSWER{
+    font-size: 1.5em;
+    color: whitesmoke;
+    font: 100px;
+}
+
+.firstLabel{
+    padding: 10px;
+    width: 300px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.secondLabel{
+    padding: 10px;
+    width: 300px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.thirdLabel{
+    padding: 10px;
+    width: 300px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.fourthLabel{
+    padding: 10px;
+    width: 300px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.fifthLabel{
+    padding: 10px;
+    width: 300px;
+    max-width: 700px;
+    margin: auto;
+}
+
+#displayInformation{
+    color: whitesmoke;
+    font: bold;
+}
+
+#Surname{
+    width: 250px;
+    height: 27px;
+    border: 0 none;
+}
+
+#Name{
+    width: 250px;
+    height: 27px;
+    border: 0 none;
+
+}
+
+#firstNumber{
+    width: 250px;
+    height: 27px;
+    border: 0 none;
+}
+
+#secondNumber{
+    width: 250px;
+    height: 27px;
+    border: 0 none;
+}
+
+#answer{
+    width: 250px;
+    height: 27px;
+    border: 0 none;
+}
+
+#firstButton{
+    width: 200px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#addition{
+    width: 50px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#subtraction{
+    width: 50px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#division{
+    width: 50px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#multiplication{
+    width: 50px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#modulus{
+    width: 50px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}

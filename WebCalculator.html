@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web calculator</title>
+    <link rel="stylesheet" href="styleSheet.css">
+</head>
+<body>
+    <header id="HEADER">
+    <h1 class="heading"> Welcome to the online calculator</h1>
+
+    <h2 id="calculate">Insert your name and your surname in the spaces provided</h2>
+    <hr class="line">
+    <br>
+     
+    <div class="firstLabel">
+    <label class="labelName"> Name:</label> 
+    <input type="string" id="Name">
+    </div>
+
+    <div class="secondLabel">
+    <label class="labelSurname"> Surname:</label>
+    <input type="string" id="Surname"> 
+    </div>
+    <br>
+
+    <input type="button" id="firstButton" value="Display user information">
+    <br>
+
+    <h2 class="thirdHeading">Once you have filled in the boxes above put in the numbers you would like to calculate then press the type of calculation</h2>
+
+    <div class="thirdLabel">
+    <label class="FirstNumber">First number:</label>
+    <input type="number" id="firstNumber">
+    </div>
+
+    <div class="fourthLabel">
+    <label class="SecondNumber">Second number:</label>
+    <input type="number" id="secondNumber">
+    </div>
+
+    <button id="addition">+</button>
+    <button id="subtraction">-</button>
+    <button id = "multiplication">*</button>
+    <button id = "division">/</button>
+    <button id = "modulus">%</button>
+
+    <p class="output" id="displayInformation"></p>
+
+    <div class="fifthLabel">
+    <label class="ANSWER">Answer:</label>
+    <input type ="number" id="answer">
+    </div>
+    
+     <input type="reset" value="Clear">
+    </header>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
